@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
+import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
 import { ChevronRight, Trophy, Brain, Zap, Target, BookOpen, CheckCircle, XCircle, Lightbulb, RotateCcw, Star } from 'lucide-react';
+import './index.css';
+
+// All of your game code (the rest of the component) goes here.
 
 const DiscreteLogicGame = () => {
   const [currentModule, setCurrentModule] = useState('home');
